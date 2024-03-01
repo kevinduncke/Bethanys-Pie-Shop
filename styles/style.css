@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif!important;
+}
+html, body {
+    height: 100%;
+}
+header {
+    z-index: 10;
+    width: 100%;
+}
+.nav-link {
+    color: black!important;
+}
+footer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+footer p {
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 991px) {
+    header {
+        position: relative;
+    }
+    .bps-main-minintro {
+        margin: 50px 0;
+        background-color: rgb(178, 178, 32);
+    }    
+    main {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    header {
+        position: absolute;
+    }
+}

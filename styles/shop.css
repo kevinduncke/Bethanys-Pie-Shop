@@ -1,0 +1,149 @@
+header {
+    position: relative;
+}
+#bps-main-shop-h1 {
+    color: #A593C2;
+    font-weight: 500;
+}
+.bps-main-ss-h2 {
+    color: #242424;
+    font-weight: 400;
+    font-size: 18px;
+}
+.bps-main-ss-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bps-main-ss-cards {
+    height: auto;
+    background-color: #F9F9F9;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+#bps-main-ssc-lp {
+    background-image: url(../img/lemonpie.jpg);
+}
+#bps-main-ssc-sp {
+    background-image: url(../img/strawberrypie.jpg);
+}
+#bps-main-ssc-cp {
+    background-image: url(../img/cherrypie.jpg);
+}
+#bps-main-ssc-crp {
+    background-image: url(../img/cranberrypie.jpg);
+}
+#bps-main-ssc-cap {
+    background-image: url(../img/christmasapplepie.jpg);
+}
+#bps-main-ssc-rbp {
+    background-image: url(../img/rhubarbpie.jpg);
+}
+#bps-main-ssc-pkp {
+    background-image: url(../img/pumpkinpie.jpg);
+}
+#bps-main-ssc-php {
+    background-image: url(../img/peachpie.jpg);
+}
+#bps-main-ssc-bbcc {
+    background-image: url(../img/blueberrycheesecake.jpg);
+}
+#bps-main-ssc-cc {
+    background-image: url(../img/cheesecake.jpg);
+}
+#bps-main-ssc-scc {
+    background-image: url(../img/strawberrycheesecake.jpg);
+}
+.bps-main-ssc-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    border-radius: 5px;
+}
+.bps-main-ssc-h3 {
+    color: #23CFA7;
+    font-weight: 400;
+}
+.bps-main-ssc-price {
+    color: #7c7c7c;
+    font-weight: 300;
+}
+.bps-main-ssc-btn {
+    background-color: #23CFA7;
+    color: white;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+}
+@media screen and (max-width: 991px) {
+    .bps-main-shop-sects {
+        margin: 10px 4%;    
+    }    
+    #bps-main-shop-h1 {
+        font-size: 25px;
+    }    
+    .bps-main-ss-types {
+        margin: 30px 0 0 0;
+    }    
+    .bps-main-ss-container {
+        row-gap: 30px;
+        margin: 25px 0;
+    }      
+    .bps-main-ss-cards {
+        width: 100%;
+    }    
+    .bps-main-ssc-img {
+        height: 225px;
+        margin: 10px;    
+    }    
+    .bps-main-ssc-h3 {
+        margin: 15px 10px;
+        font-size: 16px;
+    }    
+    .bps-main-ssc-price {
+        margin: 0 10px;
+        font-size: 14px;
+    }    
+    .bps-main-ssc-btn {
+        margin: 15px 10px;
+        padding: 5px 20px;
+        font-size: 14px;
+    }    
+}
+@media screen and (min-width: 992px) {
+    .bps-main-shop-sects {
+        margin: 25px 4% 50px 4%;    
+    }    
+    #bps-main-shop-h1 {
+        margin: 0 0 25px 0;
+        font-size: 26px;
+        line-height: 40px;
+    }    
+    .bps-main-ss-types {
+        margin: 45px 0 0 0;
+    }    
+    .bps-main-ss-container {
+        gap: 30px;
+    }      
+    .bps-main-ss-cards {
+        width: 325px;
+    }    
+    .bps-main-ssc-img {
+        height: 150px;
+        margin: 15px;    
+    }    
+    .bps-main-ssc-h3 {
+        margin: 15px 15px;
+        font-size: 16px;
+    }    
+    .bps-main-ssc-price {
+        margin: 0 15px;
+        font-size: 14px;
+    }    
+    .bps-main-ssc-btn {
+        margin: 15px 15px;
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+}
