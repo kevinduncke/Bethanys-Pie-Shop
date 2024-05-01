@@ -1,63 +1,83 @@
 header {
-    position: relative;
+  position: relative;
 }
 #bps-main-wwus-h1 {
-    color: white;
-    font-weight: 500;
+  color: white;
+  font-weight: 500;
 }
 #bps-main-wwus-h2 {
-    color: #23CFA7;
-    font-weight: 600;   
-    text-transform: uppercase;
+  color: #23cfa7;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .bps-main-wwus-msg {
-    font-weight: 400;
-    color: white;
-}   
+  font-weight: 400;
+  color: white;
+}
 #bps-main-wwus-link-you {
-    background: linear-gradient(to right, rgb(35, 207, 167), rgb(0, 122, 106));
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    border: 2px solid rgb(69 179 153);
+  background: linear-gradient(to right, rgb(35, 207, 167), rgb(0, 122, 106));
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 2px;
 }
 body {
-    background-color: #313131;
+  background-color: #313131;
 }
-.nav-link {
-    color: white!important;
-}    
 
-@media screen and (max-width: 991px){
-
+@media screen and (max-width: 991px) {
+  .bps-main-wwus-sects {
+    margin: 35px 4% 25px 4%;
+  }
+  #bps-main-wwus-h1 {
+    margin: 0 0 25px 0;
+    font-size: 26px;
+    line-height: 40px;
+  }
+  #bps-main-wwus-h2 {
+    font-size: 28px;
+    letter-spacing: 1.5px;
+  }
+  .bps-main-wwus-msg {
+    font-size: 16px;
+    margin: 35px 0;
+    line-height: 30px;
+  }
+  #bps-main-wwus-link-you {
+    padding: 10px 25px;
+    font-size: 13px;
+  }
 }
-@media screen and (min-width: 992px){
-    .bps-main-wwus-sects {
-        margin: 25px 4% 50px 4%;    
-    }    
-    #bps-main-wwus-h1 {
-        margin: 0 0 25px 0;
-        font-size: 26px;
-        line-height: 40px;
-    }   
-    #bps-main-wwus-h2 {
-        font-size: 28px; 
-        letter-spacing: 1.5px;
-    }    
-    .bps-main-wwus-msg {
-        font-size: 16px;
-        margin: 35px 0;
-        letter-spacing: 1px;
-        line-height: 40px;
-    }      
-    #bps-main-wwus-link-you {
-        padding: 10px 25px;
-        font-size: 13px;
-    }    
-    #bps-main-wwus-link-you:hover {
-        border: 3px solid rgba(229, 238, 245, 0.488);
-    } 
+@media screen and (min-width: 992px) {
+  .bps-main-wwus-sects {
+    margin: 25px 4% 50px 4%;
+  }
+  #bps-main-wwus-h1 {
+    margin: 0 0 25px 0;
+    font-size: 26px;
+    line-height: 40px;
+  }
+  #bps-main-wwus-h2 {
+    font-size: 28px;
+    letter-spacing: 1.5px;
+  }
+  .bps-main-wwus-msg {
+    font-size: 16px;
+    margin: 35px 0;
+    letter-spacing: 1px;
+    line-height: 40px;
+  }
+  #bps-main-wwus-link-you {
+    padding: 10px 25px;
+    font-size: 13px;
+  }
+  #bps-main-wwus-link-you:hover {
+    border: 3px solid rgba(229, 238, 245, 0.488);
+  }
+  .nav-link {
+    color: white !important;
+  }
 }

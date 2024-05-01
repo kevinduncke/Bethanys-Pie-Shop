@@ -1,147 +1,240 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Home | Bethany's Pie Shop</title>
-    <link rel="stylesheet" href="./res/node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/announcement-bar.css">
-    <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/banner.css">
-    <link rel="stylesheet" href="./styles/news.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="./res/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/announcement-bar.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/banner.css" />
+    <link rel="stylesheet" href="./styles/news.css" />
+  </head>
+  <body>
     <header>
-        <!-- ANNOUNCEMENT BAR -->
-        <div id="bps-ann-bar">
-            <p class="bps-ann-bar-message">
-                FREE delivery on all orders over £25 
-                | 
-                Orders placed before midday are dispatched the same day
-            </p>
-        </div>
-        <!----- NAVBAR MENU ---->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid cont-navbar">
-              <a class="navbar-brand" href="./index.html">
-                <img src="./img/pie.png" id="bps-header-logo" alt="Bethany's Pie Shop Logo" height="725" width="1027">
-                <p id="bps-header-trade">Bethany's Pie Shop</p>
-              </a>
-              <button id="navbar-open" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <svg xmlns="http://www.w3.org/2000/svg" height="30px" width="30px" viewBox="0 0 448 512">
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
+      <!-- ANNOUNCEMENT BAR -->
+      <div id="bps-ann-bar">
+        <p class="bps-ann-bar-message">
+          FREE delivery on all orders over £25 | Orders placed before midday are
+          dispatched the same day
+        </p>
+      </div>
+      <!----- NAVBAR MENU ---->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid cont-navbar">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="./img/pie.png"
+              id="bps-header-logo"
+              alt="Bethany's Pie Shop Logo"
+              height="725"
+              width="1027"
+            />
+            <p id="bps-header-trade">Bethany's Pie Shop</p>
+          </a>
+          <button
+            id="navbar-open"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="30px"
+              width="30px"
+              viewBox="0 0 448 512"
+            >
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
                     https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. 
                   -->
-                  <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 
+              <path
+                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 
                   128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 
                   32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 
-                  32-32H416c17.7 0 32 14.3 32 32z"/>
-                </svg>
-              </button>
-              <button id="navbar-close" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <svg xmlns="http://www.w3.org/2000/svg" height="30px" width="30px" viewBox="0 0 384 512">
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
+                  32-32H416c17.7 0 32 14.3 32 32z"
+              />
+            </svg>
+          </button>
+          <button
+            id="navbar-close"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="30px"
+              width="30px"
+              viewBox="0 0 384 512"
+            >
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
                     https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. 
                   -->
-                  <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 
+              <path
+                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 
                   105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 
                   12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 
-                  45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
-                </svg>
-              </button>              
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="navbar-search">
-                  <form class="d-flex" role="search">
-                    <input id="search-input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
-                        <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
+                  45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+              />
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-search">
+              <form class="d-flex" role="search">
+                <input
+                  id="search-input"
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1em"
+                    viewBox="0 0 512 512"
+                  >
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
                           https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. 
                         -->
-                        <path fill="#A1A1A1" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 
+                    <path
+                      fill="#A1A1A1"
+                      d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 
                         12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 
-                        93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
-                      </svg>
-                    </button>
-                  </form>                  
-                </div>                
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Pies
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Cherry Pie</a></li>
-                      <li><a class="dropdown-item" href="#">Cranberry Pie</a></li>
-                      <li><a class="dropdown-item" href="#">Apple Pie</a></li>
-                      <li><a class="dropdown-item" href="#">Blueberry Pie</a></li>
-                      <li><a class="dropdown-item" href="#">Pumpkin Pie</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">All Pies</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./shop.html">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                  </li>
+                        93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                    />
+                  </svg>
+                </button>
+              </form>
+            </div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pies
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Cherry Pie</a></li>
+                  <li><a class="dropdown-item" href="#">Cranberry Pie</a></li>
+                  <li><a class="dropdown-item" href="#">Apple Pie</a></li>
+                  <li><a class="dropdown-item" href="#">Blueberry Pie</a></li>
+                  <li><a class="dropdown-item" href="#">Pumpkin Pie</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">All Pies</a></li>
                 </ul>
-                <ul class="navbar-uls navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="./aboutus.html">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./workwithus.html">Work with Us</a>
-                  </li>
-                </ul>     
-                <ul class="navbar-uls navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">hello@bethanyspieshop.com</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">0208 004 0001</a>
-                  </li>
-                </ul>
-                <div class="navbar-netsocial">
-                  <div class="navbar-ns-icons">
-                    <a href="#">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512">
-                        <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <ul class="navbar-uls navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./workwithus.html">Work with Us</a>
+              </li>
+            </ul>
+            <ul class="navbar-uls navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">hello@bethanyspieshop.com</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">0208 004 0001</a>
+              </li>
+            </ul>
+            <div class="navbar-netsocial">
+              <div class="navbar-ns-icons">
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1.5em"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
                           https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                          <style>svg{fill:#666666}</style>
-                          <path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,
+                    <style>
+                      svg {
+                        fill: #666666;
+                      }
+                    </style>
+                    <path
+                      d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,
                           188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,
-                          122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="navbar-ns-icons">
-                    <a href="#">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 576 512">
-                        <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
+                          122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="navbar-ns-icons">
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1.5em"
+                    viewBox="0 0 576 512"
+                  >
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
                           https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                          <style>svg{fill:#666666}</style>
-                          <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 
+                    <style>
+                      svg {
+                        fill: #666666;
+                      }
+                    </style>
+                    <path
+                      d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 
                           64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 
                           132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 
                           448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 
                           11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 
-                          213.508V175.185l142.739 81.205-142.739 81.201z"/>
-                      </svg>                      
-                    </a>                    
-                  </div>
-                  <div class="navbar-ns-icons">
-                    <a href="#">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512">
-                        <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
+                          213.508V175.185l142.739 81.205-142.739 81.201z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="navbar-ns-icons">
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1.5em"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
                           https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                          <style>svg{fill:#666666}</style>
-                          <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 
+                    <style>
+                      svg {
+                        fill: #666666;
+                      }
+                    </style>
+                    <path
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 
                           287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 
                           74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 
                           26.8-26.8 26.8 12 26.8 26.8zm76.1 
@@ -152,83 +245,102 @@
                           11.7-99.5 9-132.1 9s-102.7 
                           2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 
                           22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 
-                          11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
-                      </svg>                      
-                    </a>
-                  </div>
-                </div>                               
+                          11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                    />
+                  </svg>
+                </a>
               </div>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
-    
     <main>
-        <!-- BANNER SECTION -->
-        <section class="bps-main-banner-sect">
-          <div id="bps-main-banner">
-            <div class="bps-main-banner-h1">
-              <h1>Discover & Enjoy!</h1>
-              <p>
-                Take a moment to browse our pies and see which of our
-                delectable desserts are soon to arrive on your doorstep.
-              </p>
-              <div class="bps-main-banner-button">
-                <a href="#">View more.</a>
-              </div>
-              <div class="bps-main-banner-arrow">
-                <svg xmlns="http://www.w3.org/2000/svg" height="25" width="25"
-                  fill="#FFFFFF" viewBox="0 0 384 512">
-                  <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - 
+      <!-- BANNER SECTION -->
+      <section class="bps-main-banner-sect">
+        <div id="bps-main-banner">
+          <div class="bps-main-banner-h1">
+            <h1>Discover & Enjoy!</h1>
+            <p>
+              Take a moment to browse our pies and see which of our delectable
+              desserts are soon to arrive on your doorstep.
+            </p>
+            <div class="bps-main-banner-button">
+              <a href="#">View more.</a>
+            </div>
+            <div class="bps-main-banner-arrow">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="25"
+                width="25"
+                fill="#FFFFFF"
+                viewBox="0 0 384 512"
+              >
+                <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - 
                   https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <path d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 
+                <path
+                  d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 
                   73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 
                   12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 
-                  96c0-17.7-14.3-32-32-32L32 64z"/>
-                </svg>
-              </div>              
+                  96c0-17.7-14.3-32-32-32L32 64z"
+                />
+              </svg>
             </div>
           </div>
-        </section>
-        <!-- NEWS SECTION -->
-        <section class="bps-main-news-sect">
-          <h2 id="bps-main-news-h2">What's new and <br> special this summer</h2>
-          <div id="bps-main-nc-container">
-            <!-- STRAWBERRY PIE -->
-            <div class="bps-main-news-cards">
-              <div class="bps-main-news-c-dimg">
-                <img class="bps-main-news-c-img" src="./img/strawberrypie.jpg" alt="cherrypie">
-              </div>
-              <div class="bps-main-news-c-dinfo">
-                <h3 class="bps-main-news-c-h3">Fresh strawberry dream pie</h3>
-                <p class="bps-main-news-c-p">
-                  Looking for a simple and humble pie?, you've
-                  found it. It's filled with fresh, sweet strawberries
-                  coated in a light strawberry glaze.
-                </p>
-              </div>
+        </div>
+      </section>
+      <!-- NEWS SECTION -->
+      <section class="bps-main-news-sect">
+        <h2 id="bps-main-news-h2">
+          What's new and <br />
+          special this summer
+        </h2>
+        <div id="bps-main-nc-container">
+          <!-- STRAWBERRY PIE -->
+          <div class="bps-main-news-cards">
+            <div class="bps-main-news-c-dimg">
+              <img
+                class="bps-main-news-c-img"
+                src="./img/strawberrypie.jpg"
+                alt="cherrypie"
+              />
             </div>
-            <!-- LEMON PIE -->
-            <div class="bps-main-news-cards">
-              <div class="bps-main-news-c-dimg">
-                <img class="bps-main-news-c-img" src="./img/lemonpie.jpg" alt="cherrypie">
-              </div>
-              <div class="bps-main-news-c-dinfo">
-                <h3 class="bps-main-news-c-h3">Lemon pie with merengue</h3>
-                <p class="bps-main-news-c-p">
-                  Want to know what sunshine tastes like? Try this lemon meringue pie. 
-                  It's bursting with fresh citrus flavor cover with a creamy meringue topping.
-                </p>
-              </div>
-            </div>            
+            <div class="bps-main-news-c-dinfo">
+              <h3 class="bps-main-news-c-h3">Fresh strawberry dream pie</h3>
+              <p class="bps-main-news-c-p">
+                Looking for a simple and humble pie?, you've found it. It's
+                filled with fresh, sweet strawberries coated in a light
+                strawberry glaze.
+              </p>
+            </div>
           </div>
-        </section>
+          <!-- LEMON PIE -->
+          <div class="bps-main-news-cards">
+            <div class="bps-main-news-c-dimg">
+              <img
+                class="bps-main-news-c-img"
+                src="./img/lemonpie.jpg"
+                alt="cherrypie"
+              />
+            </div>
+            <div class="bps-main-news-c-dinfo">
+              <h3 class="bps-main-news-c-h3">Lemon pie with merengue</h3>
+              <p class="bps-main-news-c-p">
+                Want to know what sunshine tastes like? Try this lemon meringue
+                pie. It's bursting with fresh citrus flavor cover with a creamy
+                meringue topping.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
     <footer>
-        <p>© 2024 Bethany's Pie Shop</p>
+      <p>© 2024 Bethany's Pie Shop</p>
     </footer>
+    
     <script src="./res/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./res/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./scripts/script.js"></script>
-</body>
+  </body>
 </html>
