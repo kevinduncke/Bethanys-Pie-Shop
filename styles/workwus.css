@@ -41,6 +41,11 @@ body {
     font-size: 28px;
     letter-spacing: 1.5px;
   }
+  .bps-main-wwus-img {
+    width: 100%;
+    height: auto;
+    margin: 25px 0 0 0;
+  }
   .bps-main-wwus-msg {
     font-size: 16px;
     margin: 35px 0;
@@ -64,18 +69,18 @@ body {
     font-size: 28px;
     letter-spacing: 1.5px;
   }
+  .bps-main-wwus-img {
+    margin: 35px 0 0 0;
+  }
   .bps-main-wwus-msg {
     font-size: 16px;
     margin: 35px 0;
     letter-spacing: 1px;
-    line-height: 40px;
+    line-height: 35px;
   }
   #bps-main-wwus-link-you {
-    padding: 10px 25px;
-    font-size: 13px;
-  }
-  #bps-main-wwus-link-you:hover {
-    border: 3px solid rgba(229, 238, 245, 0.488);
+    padding: 15px 25px;
+    font-size: 14px;
   }
   .nav-link {
     color: white !important;
